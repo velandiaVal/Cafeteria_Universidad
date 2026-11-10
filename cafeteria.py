@@ -4,7 +4,7 @@ PORCENTAJE_DESCUENTO = 0.10
 
 def mostrar_productos(productos):
     print()
-    print(f"{'Codigo':<8}{'Producto':<16}{'Precio':<10}{'Existencias'}")
+    print(f"{'Codigo':<8}{'Producto':<16}{'Precio':<10}{'Existencias'}") #lod <8 <16 <10 son unicamente para organizar la respuesta agregando espaciso.
     print("-" * 45)
     for codigo, (nombre, precio, existencias) in productos.items():
         print(f"{codigo:<8}{nombre:<16}${precio:<9}{existencias}")
